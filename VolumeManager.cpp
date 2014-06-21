@@ -1371,6 +1371,9 @@ static const char *LUN_FILES[] = {
     /* Only andriod0 exists, but the %d in there is a hack to satisfy the
        format string and also give a not found error when %d > 0 */
     "/sys/class/android_usb/android%d/f_mass_storage/lun/file",
+    "/sys/devices/platform/msm_hsusb/gadget/lun0/file",
+    "/sys/class/android_usb/android0/f_mass_storage/lun0/file",
+    "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun",
     NULL
 };
 
